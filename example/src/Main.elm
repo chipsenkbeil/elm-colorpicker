@@ -23,8 +23,8 @@ initColour =
 init : Model
 init =
     { colour = initColour
-    , colorPicker = ColorPicker.init initColour
-    , colorPickerHex = ColorPicker.init initColour
+    , colorPicker = ColorPicker.empty
+    , colorPickerHex = ColorPicker.empty
     , hex = ""
     , colCss = ""
     }
